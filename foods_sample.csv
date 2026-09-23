@@ -1,0 +1,11 @@
+food_id,name,kcal_per_100g,carbs_g,protein_g,fat_g,food_type,allergens
+F001,Haferflocken,372,59.5,13.5,7.0,Carb,Gluten
+F002,Vollkornreis_gekocht,111,23.0,2.6,0.9,Carb,
+F003,Huehnerbrust,110,0.0,23.0,1.5,Protein,
+F004,Tofu_natur,144,1.5,15.0,8.0,Protein,Soja
+F005,Lachs,208,0.0,20.0,13.0,Protein,Fisch
+F006,Brokkoli,34,2.7,2.8,0.4,Gemuese,
+F007,Karotte,41,9.6,0.9,0.2,Gemuese,
+F008,Apfel,52,13.8,0.3,0.2,Obst,
+F009,Banane,89,22.8,1.1,0.3,Obst,
+F010,Griechischer_Joghurt,97,3.9,9.0,5.0,Protein,Milch
