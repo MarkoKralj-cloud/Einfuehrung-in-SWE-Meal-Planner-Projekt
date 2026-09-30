@@ -199,3 +199,43 @@ F197,Getrocknete Aprikosen,241,48.0,3.4,0.5,Obst,vegan
 F198,Apfelmus ungesüßt,45,10.0,0.2,0.1,Obst,vegan
 F199,Orangensaft,45,9.0,0.7,0.2,Obst,vegan
 F200,Apfelsaft,46,11.0,0.1,0.1,Obst,vegan
+F201,Erbsenprotein-Lachsersatz,192,0.0,21.0,12.0,Protein,vegan
+F202,Erbsenprotein-Hartkäsealternative,347,0.0,26.0,27.0,Protein,vegan
+F203,Erbsenprotein-Joghurtalternative,95,3.4,10.25,4.5,Protein,vegan
+F204,Ackerbohnenprotein-Weichkäsealternative,254,1.0,17.0,20.2,Protein,vegan
+F205,Kichererbsen-Tofu,152,1.71,16.0,9.0,Protein,vegan
+F206,Erbsenprotein-Forellenersatz,119,0.0,20.0,4.3,Protein,vegan
+F207,Kartoffelprotein-Fischfiletalternative,78,0.0,18.0,0.7,Protein,vegan
+F208,Erbsenprotein-Hartkäsealternative gereift,376,0.0,31.0,28.0,Protein,vegan
+F209,Sonnenblumenkern-Ricottaalternative,173,3.0,11.0,13.0,Protein,vegan
+F210,Kichererbsen-Eiersatz gegart,154,0.7,13.0,11.0,Protein,vegan
+F211,Erbsenprotein-Garnelenersatz,85,0.2,20.0,0.5,Protein,vegan
+F212,Erbsenprotein-Quarkalternative,67,4.0,12.0,0.3,Protein,vegan
+F213,Ackerbohnen-Tempeh,191,4.0,19.0,11.0,Protein,vegan
+F214,Erbsenprotein-Skyralternative,62,4.0,11.0,0.2,Protein,vegan
+F215,Erbsen-Reis-Joghurtalternative 3.5%,64,4.7,3.5,3.5,Protein,vegan
+F216,Erbsendrink ungesüßt,39,2.5,3.3,1.8,Protein,vegan
+F217,Erbsenproteingranulat trocken,270,14.0,50.0,1.5,Protein,vegan
+F218,Ackerbohnen-Joghurtalternative proteinreich,104,4.4,10.25,5.0,Protein,vegan
+F219,Glutenfreie Mais-Reis-Nudeln,318,65.0,11.0,1.5,Carb,vegan
+F220,Glutenfreies nussfreies Müsli,317,55.0,9.0,6.8,Carb,vegan
+F221,Glutenfreies Toastbrot,247,45.0,8.5,3.7,Carb,vegan
+F222,Buchweizennudeln glutenfrei,325,62.0,13.5,2.5,Carb,vegan
+F223,Reis-Couscous glutenfrei,348,72.0,12.5,1.1,Carb,vegan
+F224,Glutenfreies Vollkornbrot,196,38.0,7.5,1.5,Carb,vegan
+F225,Reisdrink ungesüßt,46,7.0,1.0,1.5,Carb,vegan
+F226,Sonnenblumenkernmus,580,11.0,17.0,52.0,Fett,vegan
+F227,Kürbiskernmus,594,11.0,25.0,50.0,Fett,vegan
+F228,Vegane Margarine 80%,752,0.6,0.7,83.0,Fett,vegan
+F229,Vegane Mayonnaise senffrei,685,1.0,1.5,75.0,Fett,vegan
+F230,Erbsenprotein-Sauerrahmalternative,161,3.5,3.0,15.0,Fett,vegan
+F231,Sonnenblumenkern-Frischkäsealternative,342,3.0,6.0,34.0,Fett,vegan
+F232,Sonnenblumen-Erbsenproteinmus,575,5.7,21.0,52.0,Fett,vegan
+F233,Leinsamen-Sonnenblumen-Aufstrich,673,7.0,15.0,65.0,Fett,vegan
+F234,Weiße-Bohnen-Aufstrich ohne Sesam,238,12.0,7.0,18.0,Fett,vegan
+F235,Weiße Rübe,18,2.3,1.5,0.3,Gemüse,vegan
+F236,Ackerbohnenprotein-Thunfischalternative,105,0.0,24.0,1.0,Protein,vegan
+F237,Ackerbohnenprotein-Quarkalternative,67,4.0,12.0,0.3,Protein,vegan
+F238,Glutenfreie Reis-Hirse-Pasta,318,65.0,11.0,1.5,Carb,vegan
+F239,Veganer Proteinaufstrich,342,3.0,6.0,34.0,Fett,vegan
+F240,Mairübe,18,2.3,1.5,0.3,Gemüse,vegan

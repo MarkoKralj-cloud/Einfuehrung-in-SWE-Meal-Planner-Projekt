@@ -3,39 +3,18 @@
  * Aufruf (im Projektordner): node runMealPlanner.js
  */
 
-const fs = require("node:fs");
 const path = require("node:path");
 const MealPlannerAlgorithm = require("./src/algorithms/MealPlannerAlgorithm");
+const { readCsv } = require("./src/data/csvLoader");
 
 const DB_DIR = path.join(__dirname, "Datenbank");
 
-// Liest eine CSV-Datei und wandelt Zahlenwerte in Numbers um
-function readCsv(fileName) {
-  const [headerLine, ...dataLines] = fs
-    .readFileSync(path.join(DB_DIR, fileName), "utf-8")
-    .replace(/\r/g, "")
-    .trim()
-    .split("\n");
-  const headers = headerLine.split(",");
-
-  return dataLines.map((line) => {
-    const values = line.split(",");
-    return Object.fromEntries(
-      headers.map((header, index) => {
-        const value = values[index];
-        const isNumber = value !== "" && !isNaN(value);
-        return [header, isNumber ? Number(value) : value];
-      })
-    );
-  });
-}
-
 const database = {
-  foods: readCsv("foods.csv"),
-  recipes: readCsv("recipes.csv"),
-  recipeIngredients: readCsv("recipe_ingredients.csv"),
-  foodAllergens: readCsv("food_allergens.csv"),
-  allergens: readCsv("allergens.csv")
+  foods: readCsv(path.join(DB_DIR, "foods.csv")),
+  recipes: readCsv(path.join(DB_DIR, "recipes.csv")),
+  recipeIngredients: readCsv(path.join(DB_DIR, "recipe_ingredients.csv")),
+  foodAllergens: readCsv(path.join(DB_DIR, "food_allergens.csv")),
+  allergens: readCsv(path.join(DB_DIR, "allergens.csv"))
 };
 
 // Testkonfiguration – hier Werte anpassen

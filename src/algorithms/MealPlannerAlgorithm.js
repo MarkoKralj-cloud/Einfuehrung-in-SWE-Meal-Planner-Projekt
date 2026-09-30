@@ -17,7 +17,7 @@ class MealPlannerAlgorithm {
    * @param {number} config.weeklyCalorieTarget - Zielkalorien pro Woche
    * @param {number} config.dailyCalorieTarget - Zielkalorien pro Tag (weeklyCalorieTarget / 7)
    * @param {Array<string>} config.allergens - Liste von Allergen-IDs (z.B. ['A01', 'A07'])
-   * @param {Array<string>} config.dietCategory - Diätkategorie (z.B. 'vegan', 'vegetarisch', 'normal', 'pescetarisch')
+   * @param {string} config.dietCategory - Diätkategorie (z.B. 'vegan', 'vegetarisch', 'normal', 'pescetarisch')
    * @param {Array<string>} config.mealTypePreferences - Mahlzeitentypen-Vorlieben
    * @returns {Object} - Wochenplan mit optimierten Rezepten und Kalorienausgleich
    */
@@ -46,7 +46,8 @@ class MealPlannerAlgorithm {
     // Phase 2: Allergen-Substitution (AR02)
     const substitutedWeekPlan = this._performAllergenSubstitution(
       rawWeekPlan,
-      allergens
+      allergens,
+      dietCategory
     );
 
     // Phase 3: Mengenberechnung mit Kalorien-Toleranzausgleich (AR01)
@@ -112,7 +113,7 @@ class MealPlannerAlgorithm {
    * Phase 2: Allergen-Substitution (AR02)
    * Ersetzt allergenhaltige Zutaten durch makronährstoff-ähnliche Alternativen
    */
-  _performAllergenSubstitution(weekPlan, userAllergens) {
+  _performAllergenSubstitution(weekPlan, userAllergens, dietCategory) {
     const substitutedPlan = JSON.parse(JSON.stringify(weekPlan));
 
     for (const day of substitutedPlan) {
@@ -131,7 +132,8 @@ class MealPlannerAlgorithm {
             const alternative = this._findSubstitute(
               ingredient.food_id,
               allergenIds.filter((a) => userAllergens.includes(a)),
-              userAllergens
+              userAllergens,
+              dietCategory
             );
 
             if (alternative) {
@@ -160,7 +162,7 @@ class MealPlannerAlgorithm {
   /**
    * Finde eine makronährstoff-ähnliche Alternative ohne Allergen
    */
-  _findSubstitute(foodId, allergenIds, userAllergens) {
+  _findSubstitute(foodId, allergenIds, userAllergens, dietCategory = null) {
     const originalFood = this.db.foods.find((f) => f.food_id === foodId);
     if (!originalFood) return null;
 
@@ -172,6 +174,7 @@ class MealPlannerAlgorithm {
 
     const candidates = this.db.foods.filter((f) => {
       if (f.food_type !== originalFood.food_type) return false;
+      if (dietCategory && !this._isFoodDietCompatible(f, dietCategory)) return false;
 
       const candidateAllergens = this.db.foodAllergens
         .filter((fa) => fa.food_id === f.food_id)
@@ -367,15 +370,19 @@ class MealPlannerAlgorithm {
       const food = this.db.foods.find((f) => f.food_id === ingredient.food_id);
       if (!food) return false;
 
-      const validCategories = {
-        vegan: ['vegan'],
-        vegetarisch: ['vegan', 'vegetarisch'],
-        pescetarisch: ['vegan', 'vegetarisch', 'pescetarisch'],
-        normal: ['vegan', 'vegetarisch', 'pescetarisch', 'normal']
-      };
-
-      return validCategories[dietCategory].includes(food.diet_category);
+      return this._isFoodDietCompatible(food, dietCategory);
     });
+  }
+
+  _isFoodDietCompatible(food, dietCategory) {
+    const validCategories = {
+      vegan: ['vegan'],
+      vegetarisch: ['vegan', 'vegetarisch'],
+      pescetarisch: ['vegan', 'vegetarisch', 'pescetarisch'],
+      normal: ['vegan', 'vegetarisch', 'pescetarisch', 'normal']
+    };
+
+    return validCategories[dietCategory]?.includes(food.diet_category) || false;
   }
 
   /**
