@@ -1,13 +1,13 @@
 /**
  * Testlauf für den MealPlannerAlgorithm
- * Aufruf (im Projektordner): node test/runMealPlanner.js
+ * Aufruf (im Projektordner): node runMealPlanner.js
  */
 
 const fs = require("node:fs");
 const path = require("node:path");
-const MealPlannerAlgorithm = require("../src/algorithms/MealPlannerAlgorithm");
+const MealPlannerAlgorithm = require("./src/algorithms/MealPlannerAlgorithm");
 
-const DB_DIR = path.join(__dirname, "..", "Datenbank");
+const DB_DIR = path.join(__dirname, "Datenbank");
 
 // Liest eine CSV-Datei und wandelt Zahlenwerte in Numbers um
 function readCsv(fileName) {

@@ -329,7 +329,8 @@ class MealPlannerAlgorithm {
               scalingFactor = (scalingFactor + dayScalingFactor) / 2;
             }
 
-            const newAmount = ingredient.original_amount_g * scalingFactor;
+            const currentAmount = ingredient.amount_g ?? ingredient.original_amount_g;
+            const newAmount = currentAmount * scalingFactor;
             const newCalories = (food.kcal_per_100g / 100) * newAmount;
 
             return {
