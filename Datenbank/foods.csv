@@ -1,0 +1,201 @@
+food_id,name,kcal_per_100g,carbs_per_100g,protein_per_100g,fat_per_100g,food_type,diet_category
+F001,Haferflocken,372,59.5,13.5,7.0,Carb,vegan
+F002,Vollkornreis gekocht,111,23.0,2.6,0.9,Carb,vegan
+F003,Hühnerbrust,110,0.0,23.0,1.5,Protein,normal
+F004,Tofu natur,144,1.5,15.0,8.0,Protein,vegan
+F005,Lachs,208,0.0,20.0,13.0,Protein,pescetarisch
+F006,Brokkoli,34,2.7,2.8,0.4,Gemüse,vegan
+F007,Karotte,41,9.6,0.9,0.2,Gemüse,vegan
+F008,Apfel,52,13.8,0.3,0.2,Obst,vegan
+F009,Banane,89,22.8,1.1,0.3,Obst,vegan
+F010,Griechischer Joghurt,97,3.9,9.0,5.0,Protein,vegetarisch
+F011,Weißer Reis roh,349,78.0,7.0,0.6,Carb,vegan
+F012,Vollkornreis roh,350,72.0,7.5,2.7,Carb,vegan
+F013,Weißer Reis gekocht,130,28.0,2.7,0.3,Carb,vegan
+F014,Nudeln roh,352,70.0,12.5,1.5,Carb,vegan
+F015,Vollkornnudeln roh,340,62.0,13.5,2.5,Carb,vegan
+F016,Nudeln gekocht,158,31.0,5.8,0.9,Carb,vegan
+F017,Eiernudeln roh,370,68.0,13.5,3.5,Carb,vegetarisch
+F018,Reisnudeln roh,360,80.0,6.0,0.6,Carb,vegan
+F019,Couscous roh,360,72.0,12.5,1.1,Carb,vegan
+F020,Bulgur roh,345,70.0,12.0,1.3,Carb,vegan
+F021,Quinoa roh,368,57.0,14.0,6.0,Carb,vegan
+F022,Hirse roh,360,69.0,11.0,4.0,Carb,vegan
+F023,Buchweizen roh,343,62.0,13.0,3.4,Carb,vegan
+F024,Polenta roh,350,74.0,8.0,1.2,Carb,vegan
+F025,Weizenmehl,348,72.0,10.0,1.0,Carb,vegan
+F026,Weizenvollkornmehl,320,60.0,12.0,2.0,Carb,vegan
+F027,Maisstärke,350,86.0,0.3,0.1,Carb,vegan
+F028,Semmelbrösel,360,72.0,11.0,2.0,Carb,vegan
+F029,Cornflakes,375,84.0,7.0,0.9,Carb,vegan
+F030,Müsli ungezuckert,360,60.0,10.0,6.5,Carb,vegan
+F031,Reiswaffeln,385,81.0,8.0,3.0,Carb,vegan
+F032,Semmel,260,51.0,8.5,1.5,Carb,vegan
+F033,Toastbrot,260,48.0,8.0,3.5,Carb,vegan
+F034,Vollkorntoast,250,42.0,9.0,4.0,Carb,vegan
+F035,Mischbrot,225,44.0,7.0,1.3,Carb,vegan
+F036,Vollkornbrot,215,38.0,7.5,1.5,Carb,vegan
+F037,Knäckebrot,340,60.0,10.0,1.5,Carb,vegan
+F038,Croissant,406,45.0,8.0,21.0,Carb,vegetarisch
+F039,Weizentortilla,305,50.0,8.0,7.5,Carb,vegan
+F040,Butterkekse,440,72.0,8.0,12.0,Carb,vegetarisch
+F041,Kartoffeln roh,76,16.0,2.0,0.1,Carb,vegan
+F042,Kartoffeln gekocht,72,15.5,1.9,0.1,Carb,vegan
+F043,Süßkartoffel,86,17.0,1.6,0.1,Carb,vegan
+F044,Pommes frites Backofen,150,24.0,2.5,5.0,Carb,vegan
+F045,Zucker,400,100.0,0.0,0.0,Carb,vegan
+F046,Honig,306,76.0,0.4,0.0,Carb,vegetarisch
+F047,Marmelade,250,60.0,0.4,0.1,Carb,vegan
+F048,Nuss-Nougat-Creme,540,57.0,6.0,31.0,Carb,vegetarisch
+F049,Zartbitterschokolade 70%,550,32.0,8.0,42.0,Carb,vegan
+F050,Vollmilchschokolade,535,56.0,7.0,30.0,Carb,vegetarisch
+F051,Hafermilch,45,7.0,1.0,1.5,Carb,vegan
+F052,Hähnchenschenkel mit Haut,217,0.0,17.0,16.5,Protein,normal
+F053,Putenbrust,107,0.0,24.0,1.0,Protein,normal
+F054,Rinderhackfleisch,254,0.0,17.0,20.0,Protein,normal
+F055,Hackfleisch gemischt,250,0.0,18.0,20.0,Protein,normal
+F056,Rindersteak Hüfte,136,0.0,22.0,5.0,Protein,normal
+F057,Rindergulasch,158,0.0,20.0,8.5,Protein,normal
+F058,Schweinefilet,110,0.0,21.0,2.6,Protein,normal
+F059,Schweineschnitzel,106,0.0,22.0,2.0,Protein,normal
+F060,Kochschinken,107,1.0,19.0,3.0,Protein,normal
+F061,Rohschinken,250,0.0,27.0,16.0,Protein,normal
+F062,Putenaufschnitt,105,1.0,20.0,2.0,Protein,normal
+F063,Salami,410,1.0,22.0,35.0,Protein,normal
+F064,Wiener Würstchen,270,1.0,13.0,24.0,Protein,normal
+F065,Leberkäse,297,1.0,12.0,27.0,Protein,normal
+F066,Ei,155,0.7,13.0,11.0,Protein,vegetarisch
+F067,Eiklar,50,0.7,11.0,0.2,Protein,vegetarisch
+F068,Räucherlachs,180,0.0,20.0,11.0,Protein,pescetarisch
+F069,Thunfisch Dose im eigenen Saft,116,0.0,26.0,1.0,Protein,pescetarisch
+F070,Kabeljau,77,0.0,18.0,0.7,Protein,pescetarisch
+F071,Alaska-Seelachs,80,0.0,18.0,0.8,Protein,pescetarisch
+F072,Forelle,119,0.0,20.0,4.3,Protein,pescetarisch
+F073,Makrele,205,0.0,19.0,14.0,Protein,pescetarisch
+F074,Matjeshering,260,0.0,16.0,22.0,Protein,pescetarisch
+F075,Sardinen in Öl,208,0.0,25.0,11.5,Protein,pescetarisch
+F076,Fischstäbchen,200,18.0,12.0,9.0,Protein,pescetarisch
+F077,Garnelen,85,0.2,20.0,0.5,Protein,pescetarisch
+F078,Tintenfisch,92,3.0,16.0,1.4,Protein,pescetarisch
+F079,Miesmuscheln,86,3.7,12.0,2.2,Protein,pescetarisch
+F080,"Naturjoghurt 3,5%",64,4.7,3.5,3.5,Protein,vegetarisch
+F081,"Magerjoghurt 0,1%",37,4.5,4.3,0.1,Protein,vegetarisch
+F082,Magerquark,67,4.0,12.0,0.3,Protein,vegetarisch
+F083,Topfen 20%,103,3.0,11.0,5.0,Protein,vegetarisch
+F084,Hüttenkäse,98,3.0,12.0,4.3,Protein,vegetarisch
+F085,Skyr,63,4.0,11.0,0.2,Protein,vegetarisch
+F086,"Vollmilch 3,5%",64,4.8,3.3,3.5,Protein,vegetarisch
+F087,"Fettarme Milch 1,5%",47,4.9,3.4,1.5,Protein,vegetarisch
+F088,Buttermilch,37,4.0,3.3,0.5,Protein,vegetarisch
+F089,Kefir,61,4.0,3.3,3.5,Protein,vegetarisch
+F090,Gouda,356,0.0,25.0,28.0,Protein,vegetarisch
+F091,Emmentaler,380,0.0,28.0,29.5,Protein,vegetarisch
+F092,Mozzarella,250,1.0,18.0,19.5,Protein,vegetarisch
+F093,Parmesan,392,0.0,36.0,28.0,Protein,vegetarisch
+F094,Feta,264,1.0,17.0,21.0,Protein,vegetarisch
+F095,Camembert,300,0.0,20.0,24.0,Protein,vegetarisch
+F096,Ricotta,174,3.0,11.0,13.0,Protein,vegetarisch
+F097,Räuchertofu,170,2.0,17.0,10.0,Protein,vegan
+F098,Tempeh,192,4.0,19.0,11.0,Protein,vegan
+F099,Seitan,125,3.0,25.0,1.5,Protein,vegan
+F100,Sojadrink,38,2.5,3.3,1.8,Protein,vegan
+F101,Sojagranulat trocken,330,14.0,50.0,1.5,Protein,vegan
+F102,Edamame,121,5.0,12.0,5.0,Protein,vegan
+F103,Rote Linsen trocken,340,50.0,25.0,1.5,Protein,vegan
+F104,Linsen gekocht,116,16.0,9.0,0.4,Protein,vegan
+F105,Kichererbsen trocken,364,49.0,19.0,6.0,Protein,vegan
+F106,Kichererbsen Dose abgetropft,119,16.0,7.0,2.6,Protein,vegan
+F107,Kidneybohnen Dose abgetropft,110,15.0,7.5,0.5,Protein,vegan
+F108,Weiße Bohnen Dose abgetropft,98,13.0,6.5,0.5,Protein,vegan
+F109,Schwarze Bohnen gekocht,120,16.0,8.5,0.5,Protein,vegan
+F110,Butter,745,0.6,0.7,83.0,Fett,vegetarisch
+F111,Margarine,720,0.3,0.2,80.0,Fett,vegan
+F112,Olivenöl,884,0.0,0.0,100.0,Fett,vegan
+F113,Rapsöl,884,0.0,0.0,100.0,Fett,vegan
+F114,Sonnenblumenöl,884,0.0,0.0,100.0,Fett,vegan
+F115,Kokosöl,892,0.0,0.0,99.0,Fett,vegan
+F116,Mayonnaise,680,1.0,1.5,75.0,Fett,vegetarisch
+F117,Frühstücksspeck,417,1.4,13.0,40.0,Fett,normal
+F118,Schlagsahne 30%,292,3.2,2.4,30.0,Fett,vegetarisch
+F119,Sauerrahm 15%,162,3.5,3.0,15.0,Fett,vegetarisch
+F120,Crème fraîche,292,2.5,2.4,30.0,Fett,vegetarisch
+F121,Frischkäse Doppelrahm,342,3.0,6.0,34.0,Fett,vegetarisch
+F122,Mandeln,590,5.7,21.0,52.0,Fett,vegan
+F123,Walnüsse,654,7.0,15.0,65.0,Fett,vegan
+F124,Haselnüsse,646,10.5,15.0,61.0,Fett,vegan
+F125,Cashewkerne,580,30.0,18.0,44.0,Fett,vegan
+F126,Pistazien,580,12.0,20.0,49.0,Fett,vegan
+F127,Erdnüsse geröstet,590,10.0,25.0,50.0,Fett,vegan
+F128,Erdnussbutter,600,12.0,25.0,50.0,Fett,vegan
+F129,Sonnenblumenkerne,584,12.0,21.0,51.0,Fett,vegan
+F130,Kürbiskerne,560,5.0,30.0,49.0,Fett,vegan
+F131,Chiasamen,463,8.0,21.0,31.0,Fett,vegan
+F132,Leinsamen,510,1.6,18.0,42.0,Fett,vegan
+F133,Sesam,573,12.0,17.7,50.0,Fett,vegan
+F134,Tahin,600,10.0,17.0,55.0,Fett,vegan
+F135,Kokosraspeln,660,7.0,6.5,65.0,Fett,vegan
+F136,Kokosmilch Dose,197,3.0,2.0,20.0,Fett,vegan
+F137,Mandeldrink ungesüßt,15,0.5,0.5,1.1,Fett,vegan
+F138,Avocado,160,2.0,2.0,15.0,Fett,vegan
+F139,Grüne Oliven,145,1.0,1.0,15.0,Fett,vegan
+F140,Hummus,237,12.0,7.0,18.0,Fett,vegan
+F141,Tomate,18,2.6,0.9,0.2,Gemüse,vegan
+F142,Gurke,12,2.0,0.6,0.1,Gemüse,vegan
+F143,Paprika rot,31,4.8,1.0,0.3,Gemüse,vegan
+F144,Paprika grün,20,2.9,0.9,0.2,Gemüse,vegan
+F145,Zucchini,17,2.1,1.2,0.3,Gemüse,vegan
+F146,Aubergine,25,2.9,1.0,0.2,Gemüse,vegan
+F147,Zwiebel,40,7.6,1.1,0.1,Gemüse,vegan
+F148,Knoblauch,149,30.0,6.4,0.5,Gemüse,vegan
+F149,Lauch,31,5.0,1.5,0.3,Gemüse,vegan
+F150,Frühlingszwiebel,32,4.7,1.8,0.2,Gemüse,vegan
+F151,Spinat,23,1.4,2.9,0.4,Gemüse,vegan
+F152,Kopfsalat,14,1.5,1.3,0.2,Gemüse,vegan
+F153,Rucola,25,2.0,2.6,0.7,Gemüse,vegan
+F154,Feldsalat,21,0.7,1.8,0.4,Gemüse,vegan
+F155,Weißkohl,25,4.0,1.3,0.1,Gemüse,vegan
+F156,Rotkohl,31,5.0,1.4,0.2,Gemüse,vegan
+F157,Blumenkohl,25,2.3,2.0,0.3,Gemüse,vegan
+F158,Rosenkohl,43,3.3,4.5,0.3,Gemüse,vegan
+F159,Kohlrabi,27,3.7,1.7,0.1,Gemüse,vegan
+F160,Grünkohl,37,2.5,4.3,0.9,Gemüse,vegan
+F161,Champignons,22,0.6,3.1,0.3,Gemüse,vegan
+F162,Grüne Bohnen,31,5.0,1.8,0.2,Gemüse,vegan
+F163,Knollensellerie,26,2.3,1.5,0.3,Gemüse,vegan
+F164,Staudensellerie,16,1.4,0.7,0.2,Gemüse,vegan
+F165,Rote Bete,43,8.6,1.6,0.2,Gemüse,vegan
+F166,Hokkaido-Kürbis,63,12.6,1.7,0.6,Gemüse,vegan
+F167,Spargel weiß,18,2.0,1.9,0.1,Gemüse,vegan
+F168,Radieschen,16,2.1,1.0,0.1,Gemüse,vegan
+F169,Fenchel,31,3.0,2.4,0.3,Gemüse,vegan
+F170,Mangold,20,1.8,2.0,0.3,Gemüse,vegan
+F171,Pastinake,59,12.0,1.3,0.4,Gemüse,vegan
+F172,Ingwer,80,16.0,1.8,0.8,Gemüse,vegan
+F173,Mais Dose,70,12.0,2.5,1.2,Gemüse,vegan
+F174,Erbsen TK,81,10.0,5.4,0.4,Gemüse,vegan
+F175,Tomaten Dose gehackt,21,3.5,1.2,0.2,Gemüse,vegan
+F176,Passierte Tomaten,32,5.0,1.5,0.2,Gemüse,vegan
+F177,Tomatenmark,82,12.5,4.3,0.5,Gemüse,vegan
+F178,Sauerkraut,19,1.4,1.5,0.3,Gemüse,vegan
+F179,Essiggurken,20,3.5,0.5,0.1,Gemüse,vegan
+F180,Birne,57,12.4,0.4,0.1,Obst,vegan
+F181,Orange,47,9.4,0.9,0.1,Obst,vegan
+F182,Mandarine,53,11.0,0.8,0.3,Obst,vegan
+F183,Zitrone,29,3.2,0.7,0.3,Obst,vegan
+F184,Kiwi,55,10.0,1.1,0.5,Obst,vegan
+F185,Erdbeeren,32,5.5,0.7,0.3,Obst,vegan
+F186,Heidelbeeren,57,12.0,0.7,0.3,Obst,vegan
+F187,Himbeeren,43,4.8,1.3,0.3,Obst,vegan
+F188,Weintrauben,69,16.0,0.7,0.2,Obst,vegan
+F189,Ananas,50,12.0,0.5,0.1,Obst,vegan
+F190,Mango,60,13.0,0.8,0.4,Obst,vegan
+F191,Wassermelone,30,7.5,0.6,0.2,Obst,vegan
+F192,Pfirsich,39,8.9,0.9,0.3,Obst,vegan
+F193,Zwetschken,46,10.0,0.7,0.3,Obst,vegan
+F194,Kirschen,63,14.0,1.0,0.3,Obst,vegan
+F195,Aprikose,48,8.5,0.9,0.1,Obst,vegan
+F196,Datteln getrocknet,282,65.0,2.5,0.4,Obst,vegan
+F197,Getrocknete Aprikosen,241,48.0,3.4,0.5,Obst,vegan
+F198,Apfelmus ungesüßt,45,10.0,0.2,0.1,Obst,vegan
+F199,Orangensaft,45,9.0,0.7,0.2,Obst,vegan
+F200,Apfelsaft,46,11.0,0.1,0.1,Obst,vegan
