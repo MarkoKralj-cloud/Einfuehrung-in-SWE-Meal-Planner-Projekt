@@ -1,0 +1,46 @@
+recipe_id,name,meal_type
+R001,Haferbrei mit Banane und Walnüssen,Frühstück
+R002,Skyr-Bowl mit Beeren,Frühstück
+R003,Rührei mit Vollkorntoast,Frühstück
+R004,Omelett mit Spinat und Feta,Frühstück
+R005,Avocado-Brot mit Ei,Frühstück
+R006,Magerquark mit Apfel und Mandeln,Frühstück
+R007,Tofu-Scramble mit Vollkornbrot,Frühstück
+R008,Chia-Pudding mit Mango,Frühstück
+R009,Lachs-Frischkäse-Brot,Frühstück
+R010,Schinken-Käse-Toast,Frühstück
+R011,Müsli mit Joghurt und Erdbeeren,Frühstück
+R012,Spiegelei mit Speck und Champignons,Frühstück
+R013,Erdnussbutter-Bananen-Toast,Frühstück
+R014,Hüttenkäse mit Gemüse und Knäckebrot,Frühstück
+R015,Griechischer Joghurt mit Nüssen und Himbeeren,Frühstück
+R016,Hühnerbrust mit Reis und Brokkoli,Mittagessen
+R017,Spaghetti Bolognese,Mittagessen
+R018,Rotes Linsen-Dal mit Reis,Mittagessen
+R019,Kichererbsen-Spinat-Curry,Mittagessen
+R020,Lachs mit Kartoffeln und Spargel,Mittagessen
+R021,Putenbrust-Salat mit Vollkornbrot,Mittagessen
+R022,Chili sin Carne mit Reis,Mittagessen
+R023,Quinoa-Gemüse-Bowl mit Feta,Mittagessen
+R024,Schweinefilet mit Süßkartoffel und Bohnen,Mittagessen
+R025,Rindergulasch mit Kartoffeln,Mittagessen
+R026,Thunfisch-Nudelsalat,Mittagessen
+R027,Räuchertofu-Pfanne mit Reisnudeln,Mittagessen
+R028,Hähnchenschenkel mit Blumenkohl-Gratin,Mittagessen
+R029,Garnelen-Couscous mit Gemüse,Mittagessen
+R030,Spinat-Ricotta-Vollkornpasta,Mittagessen
+R031,Ofengemüse mit Feta,Abendessen
+R032,Kabeljau mit Zucchini und Tomaten,Abendessen
+R033,Brettljause mit Vollkornbrot,Abendessen
+R034,Linsen-Gemüse-Eintopf,Abendessen
+R035,Caprese mit Vollkornbrot,Abendessen
+R036,Rindersteak mit Avocado-Rucola-Salat,Abendessen
+R037,Tempeh-Quinoa-Bowl mit Tahin,Abendessen
+R038,Champignon-Käse-Omelett mit Salat,Abendessen
+R039,Forelle mit Kartoffeln und Feldsalat,Abendessen
+R040,Hummus-Gemüse-Wrap,Abendessen
+R041,Kürbiscremesuppe mit Kürbiskernen,Abendessen
+R042,Putengeschnetzeltes mit Reis,Abendessen
+R043,Shakshuka mit Vollkornbrot,Abendessen
+R044,Sesam-Tofu mit Brokkoli,Abendessen
+R045,Gefüllte Paprika mit Hackfleisch,Abendessen
