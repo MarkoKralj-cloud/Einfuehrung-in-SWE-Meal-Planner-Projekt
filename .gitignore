@@ -1,0 +1,7 @@
+node_modules/
+
+# Gespeichertes Profil und Wochenplan (lokal pro Benutzer)
+data/
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "name": "smart-weekly-meal-planner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Erstellt anhand von Ernährungspräferenzen einen wöchentlichen Essensplan",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js --open",
+    "server": "node src/server/server.js",
+    "test": "node --test",
+    "demo": "node runMealPlanner.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
