@@ -3,7 +3,7 @@
   "decisionDate": "2026-10-08",
   "scope": "Studienprototyp zum Lernen von KI-gestützter Codeentwicklung",
   "foods": "F001-F200: vorhandene Beispielwerte; F201-F240: konstruierte Ersatzprofile",
-  "recipes": "45 vorhandene Beispielrezepte, davon 21 zur Planung aktiv",
+  "recipes": "45 vorhandene Beispielrezepte, alle zur Planung aktiv",
   "provenance": "Keine Behauptung einer vollständig belegten Nährwertdatenbank. Herkunft ist für diesen Prototyp kein Abnahmehindernis.",
   "functionalChecks": "Zutaten, Allergenzuordnung, Makrovergleich und Kalorienbedingungen werden unabhängig von der Herkunft geprüft.",
   "reference": "https://fdc.nal.usda.gov/download-datasets/"

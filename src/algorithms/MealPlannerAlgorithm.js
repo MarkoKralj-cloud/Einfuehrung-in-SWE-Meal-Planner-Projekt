@@ -84,6 +84,8 @@ class MealPlannerAlgorithm {
     macroPreference,
   ) {
     const weekPlan = [];
+    const usage = new Map();
+    const macroScores = new Map();
 
     for (let day = 0; day < days; day++) {
       const dayPlan = {};
@@ -107,29 +109,36 @@ class MealPlannerAlgorithm {
         if (availableRecipes.length === 0) {
           throw new Error(`Kein kompatibles Rezept für ${mealType} verfügbar`);
         }
-        // Die Makroverteilung ist eine Präferenz, keine harte Grenze.
-        // Bei genügend Alternativen zwischen ähnlich passenden Rezepten wechseln.
-        let selectedRecipe;
-        if (macroPreference) {
-          const rankedRecipes = [...availableRecipes].sort(
-            (first, second) =>
-              this._recipeMacroScore(first.recipe_id, macroPreference) -
-              this._recipeMacroScore(second.recipe_id, macroPreference),
+        // Abwechslung zuerst: ungenutzte/seltenere Rezepte bevorzugen.
+        // Bei nötigen Wiederholungen das am längsten zurückliegende wählen.
+        // Die Makropräferenz entscheidet zwischen gleich oft genutzten Alternativen.
+        const rankedRecipes = availableRecipes
+          .map((recipe) => {
+            const id = recipe.recipe_id;
+            if (macroPreference && !macroScores.has(id)) {
+              macroScores.set(id, this._recipeMacroScore(id, macroPreference));
+            }
+            const previous = usage.get(id) || { count: 0, lastDay: -1 };
+            return {
+              recipe,
+              ...previous,
+              score: macroScores.get(id) || 0,
+              tie: Math.random(),
+            };
+          })
+          .sort(
+            (a, b) =>
+              a.count - b.count ||
+              a.lastDay - b.lastDay ||
+              a.score - b.score ||
+              a.tie - b.tie,
           );
-          const poolSize = Math.min(
-            3,
-            Math.max(1, Math.floor(rankedRecipes.length / 2)),
-          );
-          selectedRecipe =
-            rankedRecipes[
-              (day + Math.floor(Math.random() * poolSize)) % poolSize
-            ];
-        } else {
-          selectedRecipe =
-            availableRecipes[
-              Math.floor(Math.random() * availableRecipes.length)
-            ];
-        }
+        const selected = rankedRecipes[0];
+        const selectedRecipe = selected.recipe;
+        usage.set(selectedRecipe.recipe_id, {
+          count: selected.count + 1,
+          lastDay: day,
+        });
 
         if (selectedRecipe) {
           dayPlan[mealType] = {

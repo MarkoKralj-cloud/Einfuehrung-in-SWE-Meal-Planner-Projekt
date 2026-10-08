@@ -19,8 +19,10 @@ Unter Windows geht auch `start.bat`. Die App öffnet sich auf
 ## Einfache Datenhaltung
 
 - **CSV:** Lebensmittel, Nährwerte, Rezepte, Zutaten und Allergene liegen in
-  `Datenbank/`. IDs verknüpfen die Tabellen. `base_recipes.csv` bestimmt die 21
-  aktiven Basisgerichte; die weiteren 24 Rezepte bleiben vorhanden.
+  `Datenbank/`. IDs verknüpfen die Tabellen. Alle 45 Rezepte stehen für die
+  Planung bereit. Passende Gerichte werden zuerst ohne Wiederholung ausgewählt;
+  nötige Wiederholungen sind gleichmäßig verteilt und liegen möglichst weit auseinander.
+  Die Makropräferenz entscheidet zwischen gleich oft genutzten Alternativen.
 - **JSON:** `data/state.json` speichert Profil und Wochenplan gemeinsam. Erst wird
   eine temporäre Datei vollständig geschrieben, dann der alte Zustand ersetzt.
   Bei einem Planungs- oder Schreibfehler bleibt der bisherige Zustand erhalten.
