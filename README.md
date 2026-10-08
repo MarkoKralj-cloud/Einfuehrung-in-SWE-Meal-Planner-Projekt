@@ -1,45 +1,67 @@
-# Einführung-in-SWE-Meal-Planner-Projekt
-Das Projekt zeigt die mögliche Umsetzung einer Meal Planner App welche in der Lage ist anhand von diatären Präferenzen einen wöchentlichen Essensplan zu entwickeln.
+# seali – Meal Planner V2
 
-## Starten
+Ein Studienprototyp zum Lernen von KI-gestützter Codeentwicklung. Die App erstellt
+Wochenpläne anhand von Ernährungsform, Kalorienziel, Makropräferenz und Allergenen.
+Die vorhandene HTML-Design-Library bestimmt die Gestaltung.
 
-Voraussetzung: [Node.js](https://nodejs.org) ab Version 20. Weitere Pakete werden nicht benötigt.
+## Start
 
-- **Windows:** Doppelklick auf `start.bat`
-- **Terminal:** `npm start`
+Node.js ab Version 20 installieren. Keine weiteren Pakete nötig.
 
-Die App öffnet sich unter <http://localhost:3000>. Beenden mit `Strg+C` im Terminalfenster.
-
-Profil und Wochenplan werden in `data/` gespeichert (nicht im Git). Ordner löschen = Onboarding beginnt neu.
-
-## Weitere Befehle
-
-| Befehl | Zweck |
-|---|---|
-| `npm test` | Alle Tests ausführen |
-| `npm run server` | Server starten, ohne Browser zu öffnen |
-| `npm run demo` | Algorithmus ohne Oberfläche in der Konsole testen |
-
-## Projektstruktur
-
-```
-Datenbank/                  CSV-Daten: Lebensmittel, Rezepte, Allergene
-src/algorithms/             MealPlannerAlgorithm (AR01, AR02)
-src/data/                   CSV-Loader
-src/server/server.js        Webserver + API
-src/server/planService.js   Onboarding-Validierung, Kalorienziel, Plan-Aufbau
-src/server/icsExport.js     Kalender-Export nach RFC 5545 (FR08, NFR03)
-src/Frontend/app/           Weboberfläche (Onboarding, Wochen- und Tagesansicht)
-src/Frontend/Design System Library/   Stitch-Entwürfe und DESIGN.md
-test/                       Tests (node:test)
+```sh
+npm start
 ```
 
-## API
+Unter Windows geht auch `start.bat`. Die App öffnet sich auf
+`http://127.0.0.1:3000`. Beenden mit `Strg+C`.
+`npm run server` startet ohne Browser; `npm test` führt die Tests aus.
 
-| Methode | Pfad | Beschreibung |
-|---|---|---|
-| GET | `/api/allergens` | Allergenliste aus der Datenbank (FR05) |
-| GET | `/api/state` | Gespeichertes Profil und Wochenplan |
-| PUT | `/api/profile` | Onboarding speichern und Plan erzeugen |
-| POST | `/api/plan` | Woche neu generieren (FR07) |
-| GET | `/api/plan.ics` | Wochenplan als `.ics` herunterladen (FR08) |
+## Einfache Datenhaltung
+
+- **CSV:** Lebensmittel, Nährwerte, Rezepte, Zutaten und Allergene liegen in
+  `Datenbank/`. IDs verknüpfen die Tabellen. `base_recipes.csv` bestimmt die 21
+  aktiven Basisgerichte; die weiteren 24 Rezepte bleiben vorhanden.
+- **JSON:** `data/state.json` speichert Profil und Wochenplan gemeinsam. Erst wird
+  eine temporäre Datei vollständig geschrieben, dann der alte Zustand ersetzt.
+  Bei einem Planungs- oder Schreibfehler bleibt der bisherige Zustand erhalten.
+- Vorhandene V1-Dateien `profile.json` und `weekplan.json` werden einmalig geprüft.
+  Aus dem Profil wird ein aktueller Plan erstellt; die Quelldateien bleiben erhalten.
+- **Keine SQLite-Datenbank und keine Datenbankbibliothek zur Laufzeit.** Eine eventuell
+  vorhandene alte `.sqlite`-Datei bleibt lediglich eine unbenutzte Sicherung.
+
+Die CSVs enthalten Beispielwerte und teilweise konstruierte Ersatzprofile. Das ist
+für den beauftragten Prototyp ausdrücklich akzeptiert. Es wird keine vollständig
+belegte Nährwertdatenbank behauptet. Die Planung prüft trotzdem die tatsächlichen
+Zutaten, Allergene, sieben Tage mit je drei Mahlzeiten, Tageskalorien innerhalb
+±50 kcal und das genaue Wochenziel (Gleitkommaabweichung höchstens `1e-9` kcal).
+
+## Oberfläche
+
+**Home** zeigt heutige Mahlzeiten und geplante Nährwerte. **Plan** enthält Tages-
+und Wochenansicht, Neugenerierung und ICS-Export. **Rezepte** zeigt Zutaten, Mengen
+und Ersatzhinweise. **Profil** erlaubt die Bearbeitung der Präferenzen über zwei
+Onboarding-Schritte. Schrift und Icons werden lokal ausgeliefert. Fehlende passende
+Rezeptbilder haben einheitliche gestaltete Platzhalter.
+
+Bei einem Wochenwechsel erstellt die App einen aktuellen Plan. Schlägt das fehl,
+bleibt der alte Plan sichtbar und wird als veraltet gekennzeichnet.
+
+## Dateien
+
+| Pfad                                     | Aufgabe                                                |
+| ---------------------------------------- | ------------------------------------------------------ |
+| `Datenbank/`                             | CSV-Stammdaten                                         |
+| `src/data/csvLoader.js`                  | CSV lesen, einschließlich Anführungszeichen und Zahlen |
+| `src/algorithms/MealPlannerAlgorithm.js` | Auswahl, Allergenersatz, Kalorienausgleich             |
+| `src/server/planService.js`              | Profile und Pläne prüfen, GUI-Daten aufbauen           |
+| `src/server/stateStore.js`               | Profil und Plan in JSON speichern                      |
+| `src/server/server.js`                   | Ein lokaler Node-Server und API                        |
+| `src/server/icsExport.js`                | Kalenderdatei mit den gespeicherten 21 Mahlzeiten      |
+| `src/Frontend/app/`                      | Ein modulares JavaScript-Frontend                      |
+| `test/`                                  | Funktions- und Regressionstests                        |
+
+Die API enthält `/api/options`, `/api/allergens`, `/api/state`, `/api/profile`,
+`/api/plan` und `/api/plan.ics`. Mit `PORT` und `DATA_DIR` lassen sich ein eigener
+Port und ein getrennter Datenordner für Tests wählen.
+
+Prüfstand und bekannte Grenzen: [docs/v2/verification.md](docs/v2/verification.md).

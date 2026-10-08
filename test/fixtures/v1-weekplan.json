@@ -1,0 +1,1313 @@
+{
+  "generatedAt": "2026-10-08T18:53:40.586Z",
+  "weekStart": "2026-10-05",
+  "profile": {
+    "dietCategory": "normal",
+    "goal": "maintenance",
+    "maintenanceCalories": 2000,
+    "calorieAdjustment": 0,
+    "macroPreference": "protein",
+    "allergens": [
+      "A07"
+    ]
+  },
+  "dailyTarget": 2000,
+  "weeklyTarget": 14000,
+  "weeklyTotal": 13999.999999999998,
+  "weeklyDeviation": -1.8189894035458565e-12,
+  "macros": {
+    "protein": 662.3818766107735,
+    "carbs": 1598.2691145120746,
+    "fat": 521.3528906424002
+  },
+  "days": [
+    {
+      "date": "2026-10-05",
+      "dayName": "Montag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "dayName": "Dienstag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "dayName": "Mittwoch",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "dayName": "Donnerstag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "dayName": "Freitag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "dayName": "Samstag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "dayName": "Sonntag",
+      "kcal": 1999.9999999999998,
+      "protein": 94.62598237296763,
+      "carbs": 228.32415921601066,
+      "fat": 74.47898437748574,
+      "deviation": -2.2737367544323206e-13,
+      "meals": [
+        {
+          "mealType": "Frühstück",
+          "recipeId": "R001",
+          "name": "Haferbrei mit Banane und Walnüssen",
+          "kcal": 636.7367717712939,
+          "protein": 17.11794839161284,
+          "carbs": 93.607814438894,
+          "fat": 21.95424607846256,
+          "ingredients": [
+            {
+              "foodId": "F001",
+              "name": "Haferflocken",
+              "amountG": 76.36259505552195,
+              "kcal": 284.06885360654167,
+              "protein": 10.308950332495463,
+              "carbs": 45.43574405803556,
+              "fat": 5.345381653886537,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F051",
+              "name": "Hafermilch",
+              "amountG": 254.54198351840654,
+              "kcal": 114.54389258328294,
+              "protein": 2.5454198351840653,
+              "carbs": 17.817938846288456,
+              "fat": 3.818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F009",
+              "name": "Banane",
+              "amountG": 127.27099175920327,
+              "kcal": 113.27118266569092,
+              "protein": 1.399980909351236,
+              "carbs": 29.017786121098347,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F123",
+              "name": "Walnüsse",
+              "amountG": 19.090648763880488,
+              "kcal": 124.8528429157784,
+              "protein": 2.8635973145820732,
+              "carbs": 1.3363454134716342,
+              "fat": 12.408921696522317,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Mittagessen",
+          "recipeId": "R016",
+          "name": "Hühnerbrust mit Reis und Brokkoli",
+          "kcal": 720.5447198447293,
+          "protein": 55.935600878169836,
+          "carbs": 79.60800534538166,
+          "fat": 16.927041903974033,
+          "ingredients": [
+            {
+              "foodId": "F003",
+              "name": "Hühnerbrust",
+              "amountG": 190.90648763880492,
+              "kcal": 209.9971364026854,
+              "protein": 43.90849215692513,
+              "carbs": 0,
+              "fat": 2.8635973145820737,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F011",
+              "name": "Weißer Reis roh",
+              "amountG": 95.45324381940246,
+              "kcal": 333.1318209297146,
+              "protein": 6.681727067358172,
+              "carbs": 74.45353017913392,
+              "fat": 0.5727194629164147,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F006",
+              "name": "Brokkoli",
+              "amountG": 190.90648763880492,
+              "kcal": 64.90820579719367,
+              "protein": 5.3453816538865375,
+              "carbs": 5.1544751662477335,
+              "fat": 0.7636259505552196,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F113",
+              "name": "Rapsöl",
+              "amountG": 12.727099175920326,
+              "kcal": 112.50755671513568,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 12.727099175920324,
+              "substitutedFor": null
+            }
+          ]
+        },
+        {
+          "mealType": "Abendessen",
+          "recipeId": "R031",
+          "name": "Ofengemüse mit Feta",
+          "kcal": 642.7185083839765,
+          "protein": 21.572433103184952,
+          "carbs": 55.10833943173501,
+          "fat": 35.59769639504915,
+          "ingredients": [
+            {
+              "foodId": "F041",
+              "name": "Kartoffeln roh",
+              "amountG": 254.54198351840654,
+              "kcal": 193.45190747398897,
+              "protein": 5.090839670368131,
+              "carbs": 40.726717362945045,
+              "fat": 0.25454198351840657,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F145",
+              "name": "Zucchini",
+              "amountG": 127.27099175920327,
+              "kcal": 21.636068599064558,
+              "protein": 1.5272519011104393,
+              "carbs": 2.6726908269432688,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F143",
+              "name": "Paprika rot",
+              "amountG": 127.27099175920327,
+              "kcal": 39.454007445353014,
+              "protein": 1.2727099175920327,
+              "carbs": 6.109007604441757,
+              "fat": 0.3818129752776098,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F147",
+              "name": "Zwiebel",
+              "amountG": 63.635495879601635,
+              "kcal": 25.454198351840656,
+              "protein": 0.699990454675618,
+              "carbs": 4.836297686849724,
+              "fat": 0.06363549587960164,
+              "substitutedFor": null
+            },
+            {
+              "foodId": "F204",
+              "name": "Ackerbohnenprotein-Weichkäsealternative",
+              "amountG": 76.36259505552195,
+              "kcal": 193.96099144102575,
+              "protein": 12.981641159438732,
+              "carbs": 0.7636259505552195,
+              "fat": 15.425244201215433,
+              "substitutedFor": "Feta"
+            },
+            {
+              "foodId": "F112",
+              "name": "Olivenöl",
+              "amountG": 19.090648763880488,
+              "kcal": 168.7613350727035,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 19.090648763880488,
+              "substitutedFor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
