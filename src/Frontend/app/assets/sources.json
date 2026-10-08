@@ -1,0 +1,17 @@
+[
+  {
+    "file": "seali.jpg",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBZOX5NMwivRRlOAgAhTOTuqEaQdAHSvB7SsjcmwYlbupesbyybIMfEjqp5zUcZlKuNTGRPXUl90Xi8haheAz2NrmvTXlBoyWPH9fBbyRK34eofLXHM-7x3vUqYuoFLuY04LPiqI4qA4Q3F805ipk0JA8LXs7hgEKcJQfqOg5FvOIvP_v595H0CkG2ZKPIZpoeYmarqgIT8z7oxD8cIduPmlg9xjRm5G-CqiPGwoyTc",
+    "reference": "Library -7"
+  },
+  {
+    "file": "quinoa.jpg",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkHeKEiMKo4IGaRvOr1DBDArYvWVTXPK7jBGCIa--iv13_2Cw6Ice-NXjU2zDCpMqdGRswmVdUU-NyMGm5QylERQGUEdao5o-_EkpBxcXNKJ5Nhh-Cu2KwrIwQicjORUtHu52CujqdwJAH9KDy5xttBD2bm16EZnFZSXq1aH0ggHY9QcEMem_wUnQIGn3wwh1ndQ74YYjeQorilVvybxcPOPGgtBAHQHMPu_nW70eB",
+    "reference": "Library -7"
+  },
+  {
+    "file": "inter.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+    "reference": "Google Fonts Inter"
+  }
+]
