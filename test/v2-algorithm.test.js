@@ -188,13 +188,65 @@ test("V2: Makroauswahl bewertet die Nährwerte nach Allergenersatz", () => {
   const before = make([]),
     after = make(["A"]);
   assert.ok(
-    before.weekPlan.every((d) =>
-      Object.values(d.meals).every((m) => m.name === "original"),
-    ),
+    Object.values(before.weekPlan[0].meals).every((m) => m.name === "original"),
   );
   assert.ok(
-    after.weekPlan.every((d) =>
-      Object.values(d.meals).every((m) => m.name === "other"),
-    ),
+    Object.values(after.weekPlan[0].meals).every((m) => m.name === "other"),
   );
+});
+
+test("V2: alle 45 CSV-Rezepte stehen für abwechslungsreiche Wochen bereit", () => {
+  assert.equal(db.recipes.length, 45);
+});
+
+test("V2: maximale Rezeptvielfalt und verteilte Wiederholungen bei jeder Ernährungsform", () => {
+  const random = Math.random;
+  Math.random = () => 0;
+  try {
+    for (const dietCategory of [
+      "normal",
+      "vegetarisch",
+      "pescetarisch",
+      "vegan",
+    ]) {
+      for (const macroPreference of ["protein", "lowcarb", "keto"]) {
+        const plan = quiet(() =>
+          generatePlan(db, { ...profile, dietCategory, macroPreference }),
+        );
+        const planner = new Planner(db);
+        for (const mealType of ["Frühstück", "Mittagessen", "Abendessen"]) {
+          const available = db.recipes.filter(
+            (r) =>
+              r.meal_type === mealType &&
+              planner._checkDietCategoryCompatibility(
+                r.recipe_id,
+                dietCategory,
+              ),
+          );
+          const ids = plan.days.map(
+            (d) => d.meals.find((m) => m.mealType === mealType).recipeId,
+          );
+          assert.equal(
+            new Set(ids).size,
+            Math.min(7, available.length),
+            `${dietCategory}/${macroPreference}/${mealType}`,
+          );
+          const counts = available.map(
+            (r) => ids.filter((id) => id === r.recipe_id).length,
+          );
+          assert.ok(Math.max(...counts) - Math.min(...counts) <= 1);
+          for (let day = 0; day < ids.length; day++) {
+            const previous = ids.lastIndexOf(ids[day], day - 1);
+            if (day > 0 && previous >= 0)
+              assert.ok(
+                day - previous >= available.length,
+                "Wiederholung erst nach allen Alternativen",
+              );
+          }
+        }
+      }
+    }
+  } finally {
+    Math.random = random;
+  }
 });

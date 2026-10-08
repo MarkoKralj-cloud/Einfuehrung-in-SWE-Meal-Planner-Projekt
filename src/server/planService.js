@@ -41,10 +41,9 @@ function validateFood(food) {
 function loadDatabase(dbDir) {
   const read = (fileName) => readCsv(path.join(dbDir, fileName));
 
-  const active = new Set(read("base_recipes.csv").map((r) => r.recipe_id));
   const db = {
     foods: read("foods.csv"),
-    recipes: read("recipes.csv").filter((r) => active.has(r.recipe_id)),
+    recipes: read("recipes.csv"),
     recipeIngredients: read("recipe_ingredients.csv"),
     foodAllergens: read("food_allergens.csv"),
     allergens: read("allergens.csv"),
@@ -64,8 +63,11 @@ function loadDatabase(dbDir) {
     )
   )
     throw new Error("Ungültige CSV-Zuordnung");
-  if (active.size !== 21 || db.recipes.length !== 21)
-    throw new Error("Es müssen genau 21 Basisgerichte vorhanden sein");
+  if (
+    !db.recipes.length ||
+    new Set(db.recipes.map((r) => r.recipe_id)).size !== db.recipes.length
+  )
+    throw new Error("Rezepte fehlen oder enthalten doppelte IDs");
   return db;
 }
 

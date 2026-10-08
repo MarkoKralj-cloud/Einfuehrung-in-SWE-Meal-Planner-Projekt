@@ -17,3 +17,7 @@ CSV-Daten sind Beispieldaten für einen Studienprototyp; Nährwertquellen wurden
 ## CI
 
 Workflow prüft Node 24 auf macOS, Windows und Linux. Remote-Ergebnis ist bei der zugehörigen GitHub-PR sichtbar; lokale Ergebnisse beweisen keine Remote-Ausführung.
+
+## Nachbesserung: Rezeptvielfalt
+
+Node 20 und Node 24: jeweils 40/40 Tests bestanden. Regression zunächst rot: nur 21 geladene Rezepte und 3 statt 7 verschiedene Frühstücke bei normaler Ernährung. Neue Auswahl nutzt alle 45 Rezepte, minimiert Wiederholungen pro Mahlzeitentyp und verteilt nötige Wiederholungen. Prüfungen decken alle Ernährungsformen und Makropräferenzen ab; die bestehende 108-Kombinationen-Matrix prüft weiterhin Zutaten und Kalorien. Der Makrotest nach Allergenersatz prüft die bevorzugte erste Auswahl statt einer absichtlich eintönigen Woche.
