@@ -43,7 +43,7 @@ function loadDatabase(dbDir) {
 
   const db = {
     foods: read("foods.csv"),
-    recipes: read("recipes.csv"),
+    recipes: read("recipes.csv").filter((r) => active.has(r.recipe_id)),
     recipeIngredients: read("recipe_ingredients.csv"),
     foodAllergens: read("food_allergens.csv"),
     allergens: read("allergens.csv"),
