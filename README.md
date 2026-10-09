@@ -1,8 +1,6 @@
 # seali – Meal Planner V2
 
-Ein Studienprototyp zum Lernen von KI-gestützter Codeentwicklung. Die App erstellt
-Wochenpläne anhand von Ernährungsform, Kalorienziel, Makropräferenz und Allergenen.
-Die vorhandene HTML-Design-Library bestimmt die Gestaltung.
+Ein individueller Meal Planner auf Javascript Basis. 
 
 ## Start
 
