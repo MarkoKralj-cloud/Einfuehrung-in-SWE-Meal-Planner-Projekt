@@ -1,4 +1,4 @@
-# seali – Meal Planner V2
+# seali – Meal Planner V2 - UNI PROJEKT
 
 Ein individueller Meal Planner auf Javascript Basis. 
 
